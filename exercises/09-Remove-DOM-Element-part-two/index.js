@@ -1,3 +1,4 @@
 let list = document.querySelector("#parentLI");
 let childs = list.childNodes;
-childs[3].removeChild();
+
+list.removeChild(childs[3]);
